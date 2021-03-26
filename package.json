@@ -1,5 +1,5 @@
 {
-  "name": "plot-up",
+  "name": "springyield",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MayhemCreates/plot-up.git"
+    "url": "git+https://github.com/MayhemCreates/springyield.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MayhemCreates/plot-up/issues"
+    "url": "https://github.com/MayhemCreates/springyield/issues"
   },
-  "homepage": "https://github.com/MayhemCreates/plot-up#readme",
+  "homepage": "https://github.com/MayhemCreates/springyield#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
