@@ -1,0 +1,22 @@
+{
+  "name": "plot-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayhemCreates/plot-up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayhemCreates/plot-up/issues"
+  },
+  "homepage": "https://github.com/MayhemCreates/plot-up#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
