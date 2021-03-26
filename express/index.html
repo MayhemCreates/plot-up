@@ -1,9 +1,105 @@
 <!doctype html>
 <html>
   <head>
-    <title>This is not the title of the webpage!</title>
+      <link rel="stylesheet" href="./css/custom.css">
+    <title>Springyield- Home Page</title>
   </head>
   <body>
+  <header>
+    <h1>Springyield</h1>
+    <h2>For gardens on the grooow</h2>
+  </header>
+  <section id="hero">
+    <img id="header-image" src="./images/header-image.jpg">
+    <img id="logo" src="./images/logo-holder.png">
+  </section>
+  <section id="filters">
+    <div class="filter-wrapper">
+      <div class="nav-item">
+        <button onclick="myFunction()" class="dropbtn">Sort</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Sort A-Z</a>
+            <a href="#">Sort Z-A</a>
+            <a href="#">Sort Jan - Dec</a>
+          </div>
+      </div>
+      <div class="nav-item">
+        <button onclick="myfunction()" class="dropbtn">Filter</button>
+          <div id="mydropdown" class="dropdown-content">
+            <a href="#experience-levels">Experience</a>
+              <div id="#experience-levels">
+                <ul>
+                  <li><a href="#beginner">beginner</a></li>
+                  <li><a href="#intermediate">intermediate</a></li>
+                  <li><a href="#pro">pro</a></li>
+                </ul>
+            </div>
+            <a href="#local-climate">Local climate</a>
+              <div id="local-climate">
+                <ul>
+                  <li><a href="">wet</a></li>
+              </ul>
+              </div>
+            <a href="#soil-type">Soil type</a>
+              <div id="soil-type">
+                <ul>
+                <li><a href="">clay</a></li>
+                <li><a href="">loam</a></li>
+                <li><a href="">chalk</a></li>
+                <li><a href="">not sure!</a></li>
+              </ul>
+              </div>
+            <a href="#growing-space">Growing space</a>
+              <div id="growing-space">
+                <ul>
+                  <li><a href="">big</a></li>
+                  <li><a href="">big</a></li>
+                  <li><a href="">big</a></li>
+              </ul>
+              </div>
+            <a href="#maintenance-level">Maintenance level</a>
+              <div id="maintenance-level">
+                <ul>
+                 <li><a href="">I've got time on my hands</a></li>
+                  <li><a href="">weekends are free</a></li>
+                  <li><a href="">low maintenance please!</a></li>
+                </ul>
+              </div>
+            <a href="#family">Family</a>
+            <div id="family">
+              <ul>
+                <li><a href="">Salad leaf</a></li>
+                <li><a href="">Cruciferous e.g. broccoli</a></li>
+                <li><a href="">Root e.g. carrots</a></li>
+                <li><a href="">Allium e.g. onions</a></li>
+                <li><a href="">Brassica e.g. cabbage</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      
+      <div class="nav-item">
+        <button onclick="myfunction()" class="dropbtn">Find</button>
+          <div id="mydropdown" class="dropdown-content"></div>
+      </div>
+    </div>
+  </section>
+  <section id="vegetables">
+    <div class="flex-container">
+      <div class="flex-item">
+        <img src="images/broccoli.jpg" alt="broccoli">
+      </div>
+      <div class="flex-item">
+        <img src="images/potatoes.jpg" alt="potatoes">
+      </div>
+      <div class="flex-item">
+        <img src="images/carrots.jpg" alt="carrots">
+      </div>
+
+    </div>
+  </section>
+
+
     <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
   </body>
 </html>
